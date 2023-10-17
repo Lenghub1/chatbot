@@ -1,0 +1,104 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello there!",
+        "Hi",
+        "Hey!",
+        "Greetings",
+        "Howdy",
+        "Hi, what can you do?",
+        "Hello, chatbot",
+        "Hi, chatbot",
+        "Hey, there!",
+        "Good day"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi! What can I do for you?",
+        "Hey! How can I help you?",
+        "Greetings! How may I assist you?",
+        "Howdy! What can I help you with?",
+        "Hello! I'm here to assist you with any questions or requests.",
+        "Hi there! How can I assist you today?",
+        "Hello, chatbot! How can I be of service?",
+        "Hi, chatbot! What can I assist you with?",
+        "Hey there! How may I assist you?"
+      ]
+    },
+    {
+      "tag": "product_search",
+      "patterns": [
+        "Find me a smartphone",
+        "Looking for laptops",
+        "Show me clothing",
+        "Recommend electronics",
+        "Search for gadgets",
+        "Find tech products",
+        "What's in the tech section?",
+        "Tell me about your fashion items",
+        "Show me your product catalog",
+        "I'm interested in purchasing"
+      ],
+      "responses": [
+        "Sure! We have a wide range of products. What are you looking for?",
+        "Of course! We have a variety of products. What specific item are you interested in?",
+        "Certainly! We offer a diverse range of products. What can I assist you with?",
+        "Absolutely! We have a selection of items. What are you searching for?",
+        "Great choice! We have a variety of products. How can I help you further?",
+        "We offer a wide range of tech products, clothing, and more. What's your preference?",
+        "Our tech section has a variety of gadgets. What kind of tech product are you interested in?",
+        "We have a range of fashion items, from clothing to accessories. What's your style?",
+        "Our product catalog includes a wide variety of items. What's on your shopping list?",
+        "Certainly! We're here to assist you with your purchase. What can I find for you?"
+      ]
+    },
+    {
+      "tag": "product_details",
+      "patterns": [
+        "Tell me more about the laptop",
+        "What are the features of the coffee maker?",
+        "Describe the smartphone",
+        "Can you give me details about the jeans?",
+        "Tell me about this product",
+        "I'd like to know more",
+        "Give me some information",
+        "What's special about this item?",
+        "Tell me the specifications",
+        "What can you tell me about this?"
+      ],
+      "responses": [
+        "The laptop is a powerful device with great features. It's perfect for work and entertainment.",
+        "Our coffee maker is designed for convenience and produces excellent brews.",
+        "The smartphone is a high-quality device with advanced features for modern users.",
+        "Our jeans are stylish, durable, and suitable for all occasions.",
+        "Certainly! This product has unique features that make it stand out.",
+        "Of course, I'd be happy to provide more information about the product.",
+        "Let me give you some details about this item. It's quite remarkable.",
+        "What's special about this item? It has some fantastic features to offer.",
+        "The specifications of this product are quite impressive. Let me share them with you.",
+        "I can provide you with a lot of information about this product. Where would you like to start?"
+      ]
+    },
+    {
+      "tag": "product",
+      "patterns": [
+        "Tell me about your plant products",
+        "What plant products do you sell?",
+        "Show me your plant merchandise",
+        "Plant product list",
+        "What's in your plant store?",
+        "I want to see your plant offerings"
+      ],
+      "responses": [
+        "We offer a wide range of plant products, including various types of plants, flowers, and gardening supplies. What are you interested in?",
+        "Our plant store has a diverse selection of plants, from indoor to outdoor varieties, as well as gardening tools and supplies. Is there a specific category you'd like to explore?",
+        "Our plant merchandise includes a variety of plants, flowers, and gardening accessories. How can I assist you with your gardening needs today?",
+        "You can find plant products like potted plants, flowers, succulents, and gardening tools in our store. What catches your eye in the world of plants?",
+        "Our plant store is stocked with a diverse range of plant products. What kind of plant products are you looking for?",
+        "We have a great collection of plant products. What's on your gardening or plant shopping list today?"
+      ]
+    }
+  ]
+}
