@@ -1,0 +1,100 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "responses": [
+          "Hello! Welcome to our plant store. How can I assist you today?",
+          "Hi! How can I help you with your plant needs?",
+          "Hey! Welcome to our plant store. What can I do for you?",
+          "Good morning! How may I assist you with your plant needs today?",
+          "Good afternoon! How can I help you with your plant needs?",
+          "Good evening! What can I do for you in terms of plant shopping?",
+          "I'm doing well, thank you for asking. How can I help you with your plant needs today?",
+          "Hi there! Welcome to our plant store. How can I assist you with your plant shopping?",
+          "Greetings! What can I do for you in terms of plant shopping?",
+          "Not much, just here to assist. How can I help you with your plant needs?"
+        ]
+      },
+      {
+        "tag": "product_list",
+        "responses": [
+          "Sure, here's a list of our available products:\n[Listproducts]",
+          "Our product range includes:\n[Listproducts]",
+          "We have a variety of products in stock, including:\n[Listproducts]",
+          "Available products include:\n[Listproducts]",
+          "You can choose from these products:\n[Listproducts]",
+          "We offer a wide selection of products:\n[Listproducts]",
+          "Here are some of our products:\n[Listproducts]"
+        ]
+      },
+  
+      {
+        "tag": "purchase",
+        "responses": [
+          "You can purchase product_name by clicking the 'Buy Now' button on the product page. It is priced at product_price$.",
+          "To purchase product_name, simply click the 'Buy Now' button on the product page. It is priced at product_price$.",
+          "Sure thing! You can buy product_name by clicking the 'Buy Now' button on the product page. It is priced at product_price$."
+        ]
+      },
+      {
+        "tag": "payment",
+        "responses": [
+          "We accept all major credit cards, including Visa, Mastercard, and American Express. We also accept PayPal.",
+          "Yes, you can pay with a credit card. We accept all major credit cards, including Visa, Mastercard, and American Express.",
+          "Absolutely! We accept PayPal as a payment method.",
+          "You can pay for your order using a credit card or PayPal. We accept all major credit cards, including Visa, Mastercard, and American Express."
+        ]
+      },
+      {
+        "tag": "delivery",
+        "responses": [
+          "Yes, you can track your order using the tracking number provided in your order confirmation email.",
+          "Standard delivery typically takes 5-7 business days, but it may vary depending on your location.",
+          "For express shipping, your order should arrive within 2-3 business days.",
+          "The estimated delivery time for standard shipping is 5-7 business days, while express shipping delivers in 2-3 business days."
+        ]
+      },
+      {
+        "tag": "recommend",
+        "responses": [
+          {
+            "type": "image",
+            "url": "https://tse1.mm.bing.net/th?id=OIP.EdbP3psVKVbB55sfeRsB2gHaE8&pid=Api&P=0&h=220",
+            "caption": "Product 1"
+          },
+          {
+            "type": "image",
+            "url": "https://tse2.mm.bing.net/th?id=OIP.DRVpIWCIP3XXw0qoT6xcPAHaE7&pid=Api&P=0&h=220",
+            "caption": "Product 2"
+          },
+          {
+            "type": "image",
+            "url": "https://media.istockphoto.com/id/1380361370/photo/decorative-banana-plant-in-concrete-vase-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=eYADMQ9dXTz1mggdfn_exN2gY61aH4fJz1lfMomv6o4=",
+            "caption": "Product 3"
+          }
+        ]
+      },
+      {
+        "tag": "returns",
+        "responses": [
+          "Yes, you can return a product within 30 days of purchase. Please see our return policy for more information.",
+          "Our return policy allows for returns within 30 days of purchase. Please see our website for more information.",
+          "To return a product, please log in to your account and go to the 'Orders' section. You can initiate a return there."
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "responses": [
+          "Thank you for visiting our store! Have a great day!",
+          "Bye! Take care and happy planting!",
+          "See you later! Happy planting!",
+          "Take care and happy planting!",
+          "Farewell and happy planting!",
+          "Have a great day and happy planting!",
+          "Until next time! Happy planting!",
+          "Goodbye! Thank you for shopping with us."
+        ]
+      }
+    ]
+  }
+  
